@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Whitewater Rafting</title>
+    <meta name="description" content="Please fill out the form to get in contact with us">
+    <meta name="author" content="Walter Jens Sanchez Fernandez">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="images/logos/wwr-logo.png" alt="White water rafting logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="company-info">
+            <h2>Rafting Costa Rica</h2>
+            <p>150M Este del polideportivo de Fortuna, Alajuela</p>
+            <p>+506 72409649</p>
+            <p><a href="mailto:raftingcostarica@gmail.com">raftingcostarica@gmail.com</a></p>
+        </section>
+
+        <section class="contact-form">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11725.659351132539!2d-84.64547447821192!3d10.460455764821653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa00d7c51ed85ab%3A0xac4104a45eb9977d!2sRafting%20Costa%20Rica!5e0!3m2!1sen!2scr!4v1759638924576!5m2!1sen!2scr"
+                    allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                    <legend>Message Purpose:</legend>
+                    <label for="general">
+                        <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+                        General Inquiry
+                    </label>
+                    <label for="reservation">
+                        <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                        Reservation Question
+                    </label>
+                    <label for="suggestion">
+                        <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                        Website Suggestion
+                    </label>
+                </fieldset>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <label for="subscribe">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </section>
+
+        <section class="employee-profiles">
+            <h2>We Are Here to Serve You</h2>
+            <div class="profiles">
+                <div class="profile">
+                    <img src="images/contact-us-images/staff-Joe.webp" alt="Joe Profile">
+                    <p>This is Joe, the great, more than 10 years of experience in rafting, amazing guy to hang out with
+                    </p>
+                </div>
+                <div class="profile">
+                    <img src="images/contact-us-images/staff-Leah.webp" alt="Leah Profile">
+                    <p>This is Leah, the trustworthy, she will always make sure that everything needed for a good trip
+                        is packed.</p>
+                </div>
+                <div class="profile">
+                    <img src="images/contact-us-images/staff-Nicole.webp" alt="Nicole Profile">
+                    <p>This is Nicole, the adventurer, she will make sure the adventure doesn't end.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Whitewater Rafting | Walter Jens Sanchez Fernandez | &copy;2025</p>
+            <nav class="socialmedia">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/logos/facebook-icon.png" alt="Facebook Icon">
+                </a>
+                <a href="https://linkedin.com" target="_blank">
+                    <img src="images/logos/linkedin-icon.png" alt="LinkedIn Icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/logos/instagram-icon.png" alt="Instagram Icon">
+                </a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
